@@ -12,3 +12,14 @@ I love to learn something new, a few weeks ago I paid attention to the frontend 
 ***
 * html
 * css
+## Cod example
+***
+```
+<ul>
+     <li> <a target="_blank"  href="https://vk.com/">VK</a></li>
+     <li><a target="_blank" href="https://telegram.org/">TG</a></li>
+</ul>
+```
+## Experience
+***
+not yet available
