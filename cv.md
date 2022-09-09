@@ -23,3 +23,9 @@ I love to learn something new, a few weeks ago I paid attention to the frontend 
 ## Experience
 ***
 not yet available
+## Education
+***
+university: URFU
+## English
+***
+A1 BAsic
