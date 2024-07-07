@@ -1,0 +1,97 @@
+html {
+    width: 100%;
+    background-color: #ccc;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:link {
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.header__navigation li {
+    transition: 0.5s;
+}
+.header__navigation li:hover {
+    transform:scale(1.1);
+    rotate: 360deg;
+}
+
+.about {
+    padding-top: 30px;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+.about__img {
+    max-width: 25%;
+}
+
+.about__description {
+    max-width: 75%;
+}
+
+.contacts {
+    width: 100%;
+}
+
+.contacts__link {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.contacts li:hover {
+    transform:scale(1.1) translateX(5%);
+}
+
+.skills__list {
+    display: flex;
+    gap: 10px;
+}
+
+.skills__list, .projects__list li{
+    list-style-type: none;
+}
+
+.projects__list li:hover {
+    transform:scale(1.1) translateX(4%);
+}
+
+.footer {
+    width: 100%;
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+
+.footer svg {
+    width: 100px;
+}
+
+.footer a:hover {
+    transform:scale(1.1)
+}
